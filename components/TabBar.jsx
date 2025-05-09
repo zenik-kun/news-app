@@ -20,6 +20,11 @@ const TabBar = () => {
       route: "/saved"
     },
     {
+      name: "Weather",
+      icon: "cloudy-night", // Example icon, choose one you like
+      route: "/weather"
+    },
+    {
       name: "About",
       icon: "information-circle",
       route: "/about"

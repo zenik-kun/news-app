@@ -50,6 +50,14 @@ export default function RootLayout() {
                     headerShown: false,
                     animation: "fade"
                 }} />
+                <Stack.Screen name="weather" options={{
+                    headerShown: false,
+                    animation: "fade"
+                }} />
+                <Stack.Screen name="articleDetail" options={{
+                    headerShown: false,
+                    animation: "slide_from_right" // Or any animation you prefer
+                }} />
             </Stack>
             <Toast />
         </GestureHandlerRootView>
